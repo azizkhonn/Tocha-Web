@@ -1,0 +1,130 @@
+.hero-section {
+    margin-top: 100px;
+}
+
+.hero-row {
+    display: flex;
+    align-items: center;
+}
+
+.hero__main {
+    max-width: 480px;
+}
+
+.hamburger-btn {
+    display: none;
+}
+
+.hero__main-title {
+    color: #1D2530;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.telegram {
+    color: #685ED6;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.hero__submain {
+    max-width: 375px;
+}
+
+.hero__subtitle {
+    color: #1D2530;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.free {
+    color: #685ED6;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 34px;
+}
+
+.hero__btn-wrapper {
+    padding: 40px 0;
+}
+
+.hero__btn {
+    padding: 12px 32px;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #685ED6;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+    border: 1px solid #fff;
+    transition: 0.5s;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.7;
+        border: 1px solid blue;
+        background-color: #fff;
+        color: blue;
+    }
+}
+
+@media(max-width:768px) {
+    .hero-img {
+        max-width: 420px;
+        height: 338px;
+    }
+
+}
+
+@media(max-width:375px) {
+
+    .hero-img {
+        max-width: 330px;
+        height: 266px;
+        margin-top: 20px;
+    }
+
+    .hero-row {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media(max-width:768px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:375px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    .header-btns {
+        display: none;
+    }
+
+
+}

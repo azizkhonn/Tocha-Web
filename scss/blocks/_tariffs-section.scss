@@ -1,0 +1,160 @@
+.tariffs-section {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.tariffs-main {
+    display: flex;
+    max-width: 1210px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.tariffs-item {
+    display: flex;
+    max-width: 1110px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.tariffs-title {
+    color: #1D2530;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.tariffs__main-subtitle {
+    color: #1D2530;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.tariffs__card-main {
+    max-width: 350px;
+    height: 61px;
+    background-color: rgba(104, 94, 214, 0.05);
+}
+
+.tariffs__card-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.tariffs__card-subtitle {
+    text-align: center;
+    padding: 7px 0 6px;
+    color: #685ED6;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.tariffs-h4 {
+    max-width: 255px;
+    color: #1D2530;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.tariffs-card {
+    width: 350px;
+    height: 387px;
+    border-radius: 6px;
+    background: #FCFEFF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+}
+
+.tariffs-p {
+    max-width: 292px;
+}
+
+.tariffs__p-subtitle {
+    color: #1D2530;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.tariffs__col-item {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card-btn {
+    display: flex;
+    max-width: 287px;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+    border: 1px solid #fff;
+    background-color: #685ED6;
+    transition: 0.5s;
+    color: #685ED6;
+
+    &:hover {
+        opacity: 0.5;
+    }
+
+}
+
+.card-link {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+@media(max-width:768px) {
+    .tariffs-card:nth-last-child(3) {
+        display: none;
+    }
+}
+
+@media(max-width:375px) {
+    .tariffs-card:nth-last-child(2) {
+        display: none;
+    }
+
+    .tariffs__card-item:nth-last-child(3) {
+        display: none;
+    }
+
+    .tariffs-main {
+        margin-top: 600px;
+    }
+
+    .tariffs__p-subtitle {
+        text-align: center;
+
+    }
+
+    .tariffs__main-col {
+        max-width: 329px;
+        text-align: center;
+    }
+}
